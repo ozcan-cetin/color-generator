@@ -7,3 +7,12 @@
 .error{
   border-color: red;
 }
+
+.colorDiv{
+  width: 15rem;
+  height: 8rem;
+}
+
+.alert{
+  color: blue;
+}
