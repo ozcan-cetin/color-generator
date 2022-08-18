@@ -11,6 +11,7 @@
 .colorDiv{
   width: 15rem;
   height: 8rem;
+  cursor: pointer;
 }
 
 .alert{

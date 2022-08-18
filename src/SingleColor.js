@@ -3,8 +3,8 @@ import rgbToHex from "./utils";
 
 const SingleColor = ({ rgb, weight, index, hexColor }) => {
   const [alert, setAlert] = useState(false);
-  console.log(rgb);
-  console.log(rgb.join(","));
+  // console.log(rgb);
+  // console.log(rgb.join(","));
   const bcg = rgb.join(",");
   const hex = rgbToHex(...rgb);
   const hexValue = `#${hexColor}`;
